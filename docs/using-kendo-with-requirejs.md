@@ -94,7 +94,7 @@ In this scenario a custom schim configuration is needed. The app will be initial
             'kendo': 'path-to-your-kendo-custom.min.js file'
           },
           shim: {
-            'kendo': ['jquery'],
+            'kendo': ['jquery','angular'],
             'angular' : ['jquery'],
             'app': {
               deps: ['angular', 'kendo'] //set dependencies
